@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  Face_Evaluation_ios
+
+  Created by leegunwook on 08/06/2019.
+  Copyright © 2019 leegunwook. All rights reserved.
+*/
+"Login" = "로그인";
+"ResetPassword" = "이메일 인증";
+"NextStep" = "다음";
+"CreateAccount" = "회원 가입";
+"PasswordChange" = "패스워드 변경";
+"ResetNotice" = "회원 가입 시 등록했던 이메일 입력시, 비밀번호 변경 코드가 전송됩니다.";
+"SignUpPerm" = "계정을 생성하면 앱과 관련된 모든 약관을 자동으로 수락하게 됩니다.";
+"SignUpNotice" = "다음으로 넘어가기 위해서는 이메일, 패스워드를 입력해 주세요.";
+"SetUpProfile" = "계정 정보";
+"Chats" = "채팅";
+"Post" = "글쓰기";
+"Save" = "저장";
+"TagTitle" = "태그 입력";
+"TagMessage" = "태그는 # 으로 구분합니다.";
+"TagHint" = "태그를 입력해 주세요.";
+"LinkTitle" = "링크 입력";
+"LinkMessage" = "링크는 , 으로 구분합니다.";
+"LinkHint" = "링크를 입력해 주세요.";
+"Confirm" = "확인";
+"Cancel" = "취소";
+"AddTags" = "태그 설정";
+"AddLinks" = "링크 설정";
+"TitleHint" = "제목을 입력해 주세요.";
+"NetworkFailed" = "네트워크 요청에 실패하였습니다.";
+"NetworkSuccess" = "네트워크 요청에 성공하였습니다.";
+"ProfileImageSet" = "프로필 이미지를 먼저 설정해주세요.";
+"NameCheck" = "이름을 다시한번 확인해주세요.";
+"PasswordCheck" = "비밀번호를 다시한번 확인해주세요.";
+"EmailCheck" = "이메일을 다시한번 확인해주세요.";
+"NickNameCheck" = "별명을 다시한번 확인해주세요.";
+"GenderCheck" = "성을 다시한번만 확인해주세요.";
+"IntroduceCheck" = "소개글을 다시한번만 확인해주세요.";
+"InputValid" = "입력 형식이 올바르지 않습니다.";
+"LoginFailed" = "로그인에 실패하였습니다.";

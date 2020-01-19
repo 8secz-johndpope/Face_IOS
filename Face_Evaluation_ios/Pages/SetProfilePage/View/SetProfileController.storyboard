@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RDd-QD-nza">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CustomLight.otf">
+            <string>NotoSansKR-Light</string>
+        </array>
+        <array key="CustomRegular.otf">
+            <string>NotoSansKR-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Set Profile Controller-->
+        <scene sceneID="0y8-ck-eIT">
+            <objects>
+                <viewController id="RDd-QD-nza" customClass="SetProfileController" customModule="Face_Evaluation_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c6a-5z-hyD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="About me" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CcR-CD-wce" customClass="UICTextField" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="30" y="532" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vBI-4H-iNE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="시작" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OrT-pb-10f" customClass="UICLabel" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="30" y="612" width="354" height="50"/>
+                                <color key="backgroundColor" red="0.31372549019607843" green="0.73725490196078436" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fPz-9D-7ei"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kYJ-ie-fMr" customClass="UICTextField" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="30" y="292" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="r8m-vq-yM8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nick Name " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9YX-PG-mfo" customClass="UICTextField" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="30" y="372" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="IXS-X5-n1f"/>
+                                    <constraint firstAttribute="height" constant="50" id="sSt-EL-lfP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Gender" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h54-mz-G26" customClass="UICTextField" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="30" y="452" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Fxy-Uw-b5v"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="o3W-pZ-dlS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NFf-N6-ceE" customClass="UICImageView" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="157" y="162" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="uSO-Xu-71l"/>
+                                    <constraint firstAttribute="height" constant="100" id="w6X-WX-owJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CcR-CD-wce" firstAttribute="leading" secondItem="1g1-TJ-IGa" secondAttribute="leading" constant="30" id="45H-RU-FF5"/>
+                            <constraint firstItem="h54-mz-G26" firstAttribute="top" secondItem="9YX-PG-mfo" secondAttribute="bottom" constant="30" id="4E7-I1-agk"/>
+                            <constraint firstItem="9YX-PG-mfo" firstAttribute="leading" secondItem="1g1-TJ-IGa" secondAttribute="leading" constant="30" id="5EC-ti-KEC"/>
+                            <constraint firstItem="OrT-pb-10f" firstAttribute="leading" secondItem="1g1-TJ-IGa" secondAttribute="leading" constant="30" id="73M-GX-UXi"/>
+                            <constraint firstItem="kYJ-ie-fMr" firstAttribute="leading" secondItem="1g1-TJ-IGa" secondAttribute="leading" constant="30" id="9JS-0m-Y8L"/>
+                            <constraint firstItem="1g1-TJ-IGa" firstAttribute="trailing" secondItem="CcR-CD-wce" secondAttribute="trailing" constant="30" id="PIZ-Rf-03r"/>
+                            <constraint firstItem="1g1-TJ-IGa" firstAttribute="trailing" secondItem="OrT-pb-10f" secondAttribute="trailing" constant="30" id="QaN-Ek-eIq"/>
+                            <constraint firstItem="1g1-TJ-IGa" firstAttribute="bottom" secondItem="OrT-pb-10f" secondAttribute="bottom" constant="200" id="R0h-tF-PlE"/>
+                            <constraint firstItem="NFf-N6-ceE" firstAttribute="centerX" secondItem="1g1-TJ-IGa" secondAttribute="centerX" id="VuY-Pj-1Gj"/>
+                            <constraint firstItem="1g1-TJ-IGa" firstAttribute="trailing" secondItem="h54-mz-G26" secondAttribute="trailing" constant="30" id="Wrh-ZL-vrJ"/>
+                            <constraint firstItem="1g1-TJ-IGa" firstAttribute="trailing" secondItem="9YX-PG-mfo" secondAttribute="trailing" constant="30" id="dMe-T3-6RK"/>
+                            <constraint firstItem="OrT-pb-10f" firstAttribute="top" secondItem="CcR-CD-wce" secondAttribute="bottom" constant="30" id="dVK-eD-wUa"/>
+                            <constraint firstItem="kYJ-ie-fMr" firstAttribute="top" secondItem="NFf-N6-ceE" secondAttribute="bottom" constant="30" id="fbC-aI-q3n"/>
+                            <constraint firstItem="CcR-CD-wce" firstAttribute="top" secondItem="h54-mz-G26" secondAttribute="bottom" constant="30" id="iof-Ek-Hlf"/>
+                            <constraint firstItem="9YX-PG-mfo" firstAttribute="top" secondItem="kYJ-ie-fMr" secondAttribute="bottom" constant="30" id="lGF-bI-VOV"/>
+                            <constraint firstItem="1g1-TJ-IGa" firstAttribute="trailing" secondItem="kYJ-ie-fMr" secondAttribute="trailing" constant="30" id="xLC-0s-PPJ"/>
+                            <constraint firstItem="h54-mz-G26" firstAttribute="leading" secondItem="1g1-TJ-IGa" secondAttribute="leading" constant="30" id="yML-PI-FtW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1g1-TJ-IGa"/>
+                    </view>
+                    <connections>
+                        <outlet property="aboutField" destination="CcR-CD-wce" id="F60-dL-dyx"/>
+                        <outlet property="fullNameField" destination="kYJ-ie-fMr" id="dOk-aj-IQR"/>
+                        <outlet property="genderField" destination="h54-mz-G26" id="78E-va-O0c"/>
+                        <outlet property="nickNameField" destination="9YX-PG-mfo" id="wmk-l7-LwT"/>
+                        <outlet property="profileImageView" destination="NFf-N6-ceE" id="m5C-Ld-26F"/>
+                        <outlet property="startLabel" destination="OrT-pb-10f" id="wcy-pU-LyH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYD-WL-ZM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1230.4347826086957" y="-24.107142857142858"/>
+        </scene>
+    </scenes>
+</document>

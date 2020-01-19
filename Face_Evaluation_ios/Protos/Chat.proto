@@ -1,0 +1,31 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.gunwook.face;
+
+message ChatModel {
+   int64 chat_id = 1;
+   string user_name = 2;
+   int64 user_id = 3;
+   int64 create_at = 4;
+   int64 send_user_id = 5;
+   string profile_img = 6;
+   int64 delete_at = 7;
+   string message = 8;
+}
+
+message Auth {
+   int64 user_id = 1;
+}
+
+message User {
+   int64 user_id = 2;
+   int64 send_user_id = 3;
+   int32 limit = 4;
+   int32 offset = 5;
+}
+
+service ChatService {
+  rpc recentList(Auth) returns (stream ChatModel);
+  rpc chatList(User) returns (stream ChatModel);
+  rpc send(stream ChatModel) returns (stream ChatModel);
+}

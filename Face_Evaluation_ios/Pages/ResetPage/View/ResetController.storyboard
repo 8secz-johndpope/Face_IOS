@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3tw-NT-r8e">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CustomLight.otf">
+            <string>NotoSansKR-Light</string>
+        </array>
+        <array key="CustomMedium.otf">
+            <string>NotoSansKR-Medium</string>
+        </array>
+        <array key="CustomRegular.otf">
+            <string>NotoSansKR-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Reset Controller-->
+        <scene sceneID="VBh-dc-SXs">
+            <objects>
+                <viewController id="3tw-NT-r8e" customClass="ResetController" customModule="Face_Evaluation_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e4D-zn-4Ua">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8rj-df-qd5" customClass="UICTextField" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="30" y="302" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ZJj-Bw-Az7"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pye-fP-rQc" customClass="UICTextField" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="30" y="382" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="DDo-Mj-hN0"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="회원 가입 시 등록했던 이메일 입력시, 비밀번호 변경 URL이 전송됩니다." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zYJ-FK-264">
+                                <rect key="frame" x="30" y="174" width="354" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="p7y-Jr-OPD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Medium" family="Noto Sans KR" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="다음" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x01-wo-Ogc" customClass="UICLabel" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="30" y="482" width="354" height="50"/>
+                                <color key="backgroundColor" red="0.31372549019607843" green="0.73725490196078436" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="WfG-FO-AmZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zYJ-FK-264" firstAttribute="leading" secondItem="ynC-v1-TmQ" secondAttribute="leading" constant="30" id="1B6-tl-UC5"/>
+                            <constraint firstItem="ynC-v1-TmQ" firstAttribute="trailing" secondItem="Pye-fP-rQc" secondAttribute="trailing" constant="30" id="6jL-iH-rwB"/>
+                            <constraint firstItem="Pye-fP-rQc" firstAttribute="leading" secondItem="ynC-v1-TmQ" secondAttribute="leading" constant="30" id="7yW-YJ-QfI"/>
+                            <constraint firstItem="8rj-df-qd5" firstAttribute="leading" secondItem="ynC-v1-TmQ" secondAttribute="leading" constant="30" id="C6z-uJ-8B1"/>
+                            <constraint firstItem="x01-wo-Ogc" firstAttribute="leading" secondItem="ynC-v1-TmQ" secondAttribute="leading" constant="30" id="LLs-AJ-UsG"/>
+                            <constraint firstItem="ynC-v1-TmQ" firstAttribute="trailing" secondItem="x01-wo-Ogc" secondAttribute="trailing" constant="30" id="OMd-EA-U53"/>
+                            <constraint firstItem="ynC-v1-TmQ" firstAttribute="trailing" secondItem="8rj-df-qd5" secondAttribute="trailing" constant="30" id="QKv-MP-3Nt"/>
+                            <constraint firstItem="8rj-df-qd5" firstAttribute="top" secondItem="zYJ-FK-264" secondAttribute="bottom" id="TWw-I3-Dup"/>
+                            <constraint firstItem="Pye-fP-rQc" firstAttribute="top" secondItem="8rj-df-qd5" secondAttribute="bottom" constant="30" id="Y1S-9v-FTN"/>
+                            <constraint firstItem="zYJ-FK-264" firstAttribute="top" secondItem="ynC-v1-TmQ" secondAttribute="top" constant="130" id="f5B-Zr-sW1"/>
+                            <constraint firstItem="x01-wo-Ogc" firstAttribute="top" secondItem="Pye-fP-rQc" secondAttribute="bottom" constant="50" id="tix-sQ-S29"/>
+                            <constraint firstItem="ynC-v1-TmQ" firstAttribute="trailing" secondItem="zYJ-FK-264" secondAttribute="trailing" constant="30" id="vTq-gG-1Xe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ynC-v1-TmQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="EmailCodeField" destination="Pye-fP-rQc" id="Fsb-0J-L8V"/>
+                        <outlet property="EmailIdField" destination="8rj-df-qd5" id="3xt-uG-ABp"/>
+                        <outlet property="NextStepLabel" destination="x01-wo-Ogc" id="qET-HU-IKp"/>
+                        <outlet property="NoticeTextView" destination="zYJ-FK-264" id="emh-6Q-KPu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3hO-Ze-6fF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-47.826086956521742" y="227.67857142857142"/>
+        </scene>
+    </scenes>
+</document>

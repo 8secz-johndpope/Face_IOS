@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  Face_Evaluation_ios
+
+  Created by leegunwook on 08/06/2019.
+  Copyright © 2019 leegunwook. All rights reserved.
+*/
+"Login" = "Login";
+"ResetPassword" = "Email Authentication";
+"NextStep" = "Next";
+"CreateAccount" = "Create Account";
+"SignUpNotice" = "Please enter your email and password to move on.";
+"SignUpPerm" = "By Creating Account, you are automatically accepting all the Terms & Conditions related to App";
+"PasswordChange" = "Change New Password";
+"ResetNotice" = "When you enter the registered email when you sign up for membership, the password change URL is sent.";
+"SetUpProfile" = "Set up Profile";
+"Chats" = "Chats";
+"Post" = "Post";
+"Save" = "Save";
+"AddTags" = "Tag Settings";
+"AddLinks" = "Link Settings";
+"TagTitle" = "Enter Tags";
+"TagMessage" = "Tags are divided into # .";
+"TagHint" = "Please enter the tag.";
+"LinkTitle" = "Enter Links";
+"LinkMessage" = "Links are divided into , .";
+"LinkHint" = "Please enter the link.";
+"Confirm" = "Confirm";
+"Cancel" = "Cancel";
+"TitleHint" = "Please enter a title.";
+"NetworkFailed" = "Network request failed.";
+"NetworkSuccess" = "Network request succeeded.";
+"ProfileImageSet" = "Please set up your profile image first.";
+"NameCheck" = "Please check your name again.";
+"PasswordCheck" = "Please check your password again.";
+"EmailCheck" = "Please check your email again.";
+"NickNameCheck" = "Please check your nickname again.";
+"GenderCheck" = "Please check your gender again.";
+"IntroduceCheck" = "Please check the introduction again.";
+"InputValid" = "The input format is invalid.";
+"LoginFailed" = "Login failed.";

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ojf-u5-IEB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CustomLight.otf">
+            <string>NotoSansKR-Light</string>
+        </array>
+        <array key="CustomRegular.otf">
+            <string>NotoSansKR-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Login Controller-->
+        <scene sceneID="RiH-8d-B8h">
+            <objects>
+                <viewController id="ojf-u5-IEB" customClass="LoginController" customModule="Face_Evaluation_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Dp-B0-nxf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="SAv-Tl-SOD" customClass="UICImageView" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="137.5" y="170" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="C24-FD-7JQ"/>
+                                    <constraint firstAttribute="width" constant="100" id="zdz-yK-2vk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cGe-XU-n27" customClass="UICTextField" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="50" y="320" width="275" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LYW-JQ-p7W"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uoo-e2-SHY" customClass="UICTextField" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="50" y="400" width="275" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="YPn-ZZ-Ox3"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="로그인" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpJ-6V-41f" customClass="UICLabel" customModule="Face_Evaluation_ios" customModuleProvider="target">
+                                <rect key="frame" x="50" y="480" width="275" height="50"/>
+                                <color key="backgroundColor" red="0.31372549019607843" green="0.73725490196078436" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aMU-FH-OMi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YyM-1Y-JWd">
+                                <rect key="frame" x="187" y="550" width="1" height="10"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="V8Z-c3-7d2"/>
+                                    <constraint firstAttribute="height" constant="10" id="n1q-56-I3a"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="비밀번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsf-Tq-kZR">
+                                <rect key="frame" x="119" y="545" width="48" height="20"/>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="회원가입" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcv-CQ-XSK">
+                                <rect key="frame" x="208" y="545.5" width="48" height="19.5"/>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Light" family="Noto Sans KR" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uoo-e2-SHY" firstAttribute="leading" secondItem="8n7-88-mYX" secondAttribute="leading" constant="50" id="19L-yY-awy"/>
+                            <constraint firstItem="Hcv-CQ-XSK" firstAttribute="leading" secondItem="YyM-1Y-JWd" secondAttribute="trailing" constant="20" id="3Gh-hY-cgX"/>
+                            <constraint firstItem="YyM-1Y-JWd" firstAttribute="leading" secondItem="jsf-Tq-kZR" secondAttribute="trailing" constant="20" id="7xp-4v-mmG"/>
+                            <constraint firstItem="SAv-Tl-SOD" firstAttribute="centerX" secondItem="5Dp-B0-nxf" secondAttribute="centerX" id="8M8-5d-933"/>
+                            <constraint firstItem="QpJ-6V-41f" firstAttribute="leading" secondItem="8n7-88-mYX" secondAttribute="leading" constant="50" id="9sj-IN-oEo"/>
+                            <constraint firstItem="jsf-Tq-kZR" firstAttribute="centerY" secondItem="YyM-1Y-JWd" secondAttribute="centerY" id="9zL-aJ-Hni"/>
+                            <constraint firstItem="8n7-88-mYX" firstAttribute="trailing" secondItem="cGe-XU-n27" secondAttribute="trailing" constant="50" id="DSg-Po-bSl"/>
+                            <constraint firstItem="SAv-Tl-SOD" firstAttribute="top" secondItem="8n7-88-mYX" secondAttribute="top" constant="150" id="EVQ-sS-L83"/>
+                            <constraint firstItem="cGe-XU-n27" firstAttribute="top" secondItem="SAv-Tl-SOD" secondAttribute="bottom" constant="50" id="LR3-XZ-YKv"/>
+                            <constraint firstItem="Hcv-CQ-XSK" firstAttribute="centerY" secondItem="YyM-1Y-JWd" secondAttribute="centerY" id="W4o-kJ-rCp"/>
+                            <constraint firstItem="cGe-XU-n27" firstAttribute="leading" secondItem="8n7-88-mYX" secondAttribute="leading" constant="50" id="ZPP-jv-uMd"/>
+                            <constraint firstItem="QpJ-6V-41f" firstAttribute="top" secondItem="uoo-e2-SHY" secondAttribute="bottom" constant="30" id="oVy-bg-nyd"/>
+                            <constraint firstItem="YyM-1Y-JWd" firstAttribute="centerX" secondItem="5Dp-B0-nxf" secondAttribute="centerX" id="pXD-Tm-wjb"/>
+                            <constraint firstItem="YyM-1Y-JWd" firstAttribute="top" secondItem="QpJ-6V-41f" secondAttribute="bottom" constant="20" id="qVw-gE-oql"/>
+                            <constraint firstItem="8n7-88-mYX" firstAttribute="trailing" secondItem="QpJ-6V-41f" secondAttribute="trailing" constant="50" id="rQm-3I-5Zc"/>
+                            <constraint firstItem="uoo-e2-SHY" firstAttribute="top" secondItem="cGe-XU-n27" secondAttribute="bottom" constant="30" id="rSb-Jm-3yS"/>
+                            <constraint firstItem="8n7-88-mYX" firstAttribute="trailing" secondItem="uoo-e2-SHY" secondAttribute="trailing" constant="50" id="zdT-b0-rhl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8n7-88-mYX"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="cGe-XU-n27" id="vSu-zv-lZh"/>
+                        <outlet property="loginLabel" destination="QpJ-6V-41f" id="zEO-R8-9GM"/>
+                        <outlet property="passwordField" destination="uoo-e2-SHY" id="Jx2-hK-6qQ"/>
+                        <outlet property="passwordResetLabel" destination="jsf-Tq-kZR" id="jQs-EX-UsP"/>
+                        <outlet property="signUpLabel" destination="Hcv-CQ-XSK" id="i1d-my-ljN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="73M-Ld-eYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-176.80000000000001" y="-103.89805097451276"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="500" height="500"/>
+    </resources>
+</document>
